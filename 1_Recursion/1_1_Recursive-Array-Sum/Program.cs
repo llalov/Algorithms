@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Linq;
-
-namespace _1_1_Recursive_Array
+namespace _1_1_Recursive_Array_Sum
 {
     class Program
     {
-        static int Sum(int[] array, int index)
+        public static int Sum(int[] array, int index)
         {
             if(index == array.Length - 1)
             {
