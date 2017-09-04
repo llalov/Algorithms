@@ -7045,11 +7045,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\git\\Algorithms\\1_Recursion\\1_1_Recursive-Array-Sum\\1_1_Recursive-Array-Sum.csproj",
-      "projectName": "1_1_Recursive-Array-Sum",
-      "projectPath": "E:\\git\\Algorithms\\1_Recursion\\1_1_Recursive-Array-Sum\\1_1_Recursive-Array-Sum.csproj",
+      "projectUniqueName": "E:\\git\\Algorithms\\1_Recursion\\1_1_Recursive-Array\\1_1_Recursive-Array.csproj",
+      "projectName": "1_1_Recursive-Array",
+      "projectPath": "E:\\git\\Algorithms\\1_Recursion\\1_1_Recursive-Array\\1_1_Recursive-Array.csproj",
       "packagesPath": "C:\\Users\\Lucho\\.nuget\\packages\\",
-      "outputPath": "E:\\git\\Algorithms\\1_Recursion\\1_1_Recursive-Array-Sum\\obj\\",
+      "outputPath": "E:\\git\\Algorithms\\1_Recursion\\1_1_Recursive-Array\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lucho\\AppData\\Roaming\\NuGet\\NuGet.Config",
