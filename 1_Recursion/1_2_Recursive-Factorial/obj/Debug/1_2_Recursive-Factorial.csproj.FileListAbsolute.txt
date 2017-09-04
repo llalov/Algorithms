@@ -1,0 +1,7 @@
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\bin\Debug\1_2_Recursive-Factorial.exe.config
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\bin\Debug\1_2_Recursive-Factorial.exe
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\bin\Debug\1_2_Recursive-Factorial.pdb
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\obj\Debug\1_2_Recursive-Factorial.csprojResolveAssemblyReference.cache
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\obj\Debug\1_2_Recursive-Factorial.csproj.CoreCompileInputs.cache
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\obj\Debug\1_2_Recursive-Factorial.exe
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\obj\Debug\1_2_Recursive-Factorial.pdb
