@@ -1,0 +1,9 @@
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\bin\Debug\netcoreapp1.1\1_2_Recursive-Factorial.deps.json
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\bin\Debug\netcoreapp1.1\1_2_Recursive-Factorial.runtimeconfig.json
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\bin\Debug\netcoreapp1.1\1_2_Recursive-Factorial.runtimeconfig.dev.json
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\bin\Debug\netcoreapp1.1\1_2_Recursive-Factorial.dll
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\bin\Debug\netcoreapp1.1\1_2_Recursive-Factorial.pdb
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\obj\Debug\netcoreapp1.1\1_2_Recursive-Factorial.csproj.CoreCompileInputs.cache
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\obj\Debug\netcoreapp1.1\1_2_Recursive-Factorial.AssemblyInfo.cs
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\obj\Debug\netcoreapp1.1\1_2_Recursive-Factorial.dll
+E:\git\Algorithms\1_Recursion\1_2_Recursive-Factorial\obj\Debug\netcoreapp1.1\1_2_Recursive-Factorial.pdb
