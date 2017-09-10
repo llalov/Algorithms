@@ -78,8 +78,6 @@ public class EightQueens
             Console.WriteLine();
         }
         Console.WriteLine();
-
         solutionsFound++;
-        
     }
 }
