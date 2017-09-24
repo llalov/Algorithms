@@ -56,9 +56,7 @@ public class MergeSort<T> where T: IComparable
         {
             return;
         }
-
         int mid = (lo + hi) / 2;
-
         Sort(arr, lo, mid);
         Sort(arr, mid + 1, hi);
         Merge(arr, lo, mid, hi);
