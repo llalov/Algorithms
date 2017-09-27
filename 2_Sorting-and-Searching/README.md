@@ -90,30 +90,30 @@ Comparison of Sorting Algorithms
 <br/><br/>
 1. <b>Sorting Algorithms</b><br/>
 Stable: Maintain the order of equal elements.If two items compare as equal, their relative order is preserved<br/>
-Unstable: Rearrange the equal elements in unpredictable order.<br/><br/>
+Unstable: Rearrange the equal elements in unpredictable order.<br/>
 
 - Selection sort (simple, but inefficient algorithm): https://visualgo.net/en/sorting<br/>
-Swap the first with the min element on the right, then the second, etc.<br/><br/>
+Swap the first with the min element on the right, then the second, etc.<br/>
 - Bubble sort (simple, but inefficient algorithm ): https://visualgo.net/en/sorting<br/>
-Swaps to neighbor elements when not in order until sorted<br/><br/>
+Swaps to neighbor elements when not in order until sorted<br/>
 - Insertion sort (simple, but inefficient algorithm ): https://visualgo.net/en/sorting <br/>
-Move the first unsorted element left to its place<br/><br/>
+Move the first unsorted element left to its place<br/>
 - Merge sort (efficient sorting algorithm) https://visualgo.net/en/sorting<br/>
 Divide the list into sub-lists (tipically 2 sub lists)<br/>
 Sort each sub-list (recursively call merge-sort)<br/>
 Merge the sorted sub-lists into a single list<br/>
-Highly parallelizable on multiple cores/machines: up to 0(log(n))<br/><br/>
+Highly parallelizable on multiple cores/machines: up to 0(log(n))<br/>
 - Quick sort (efficient sorting algorithm) https://visualgo.net/en/sorting<br/>
-Choose a pivot; move smaller elements left & larger right; sort left & right<br/><br/>
+Choose a pivot; move smaller elements left & larger right; sort left & right<br/>
 - Counting sort (very efficient sorting algorithm) https://visualgo.net/en/sorting<br/>
 Sorts small integers by counting their occurrences<br/>
-Not a comparison-based sort<br/><br/>
+Not a comparison-based sort<br/>
 - Bucket sort (partitions an array into a number of buckets)<br/>
 Each bucket is then sorted individually with a different algorithm<br/>
 Not a comparison-based sort<br/>
 
 2. <b>Shuffling Algorithms</b><br/>
-Randomizing the order of items in a collection. Generating random permutation.<br/><br/>
+Randomizing the order of items in a collection. Generating random permutation.<br/>
 
 - Fisher–Yates Shuffle Algorithm<br/>
 https://bost.ocks.org/mike/shuffle/<br/>
