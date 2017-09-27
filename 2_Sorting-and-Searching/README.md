@@ -1,7 +1,7 @@
 <table>
 <tbody>
 <tr>
-<th colspan="5">
+<th colspan="7">
 Comparison of Sorting Algorithms 
 </th>
 </tr>
