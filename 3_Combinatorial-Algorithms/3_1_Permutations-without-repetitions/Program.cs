@@ -13,7 +13,7 @@ namespace _3_1_Permutations_without_repetitions
             {
                 if (index >= elements.Length)
                 {
-                    Console.WriteLine(string.Join(" ", elements));
+                    Console.WriteLine(string.Join(" ", elements)); 
                 } 
                 else
                 {
