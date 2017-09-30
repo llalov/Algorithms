@@ -9,6 +9,8 @@ namespace _3_1_Permutations_without_repetitions
             char[] elements = { 'A', 'B', 'C', 'D' };
             GeneratePermWithoutRep(0, elements);
 
+            //Generating permutations without repetitions (it's preffered the elements to be unique)
+            //Permutations count is factorial of elements count (in this case 4! => 24)
             void GeneratePermWithoutRep<T>(int index, T[] array)
             {
                 if (index >= elements.Length)
