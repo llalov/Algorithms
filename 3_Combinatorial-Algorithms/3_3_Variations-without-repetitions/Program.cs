@@ -4,9 +4,34 @@ namespace _3_3_Variations_without_repetitions
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            char[] elements = { 'A', 'B', 'C', 'D' };
+            const int k = 2;// length of variation
+            char[] variations = new char[k];// holding a single variation
+            bool[] used = new bool[elements.Length];//used variations
+            GenerateVariations(0, elements);
+
+            void GenerateVariations<T>(int index, T[] array)
+            {
+                if (index >= k)
+                {
+                    Console.WriteLine(string.Join(" ", variations));
+                }
+                else
+                {
+                    for (int i = 0; i < elements.Length; i++)
+                    {
+                        if (!used[i])
+                        {
+                            used[i] = true;
+                            variations[index] = elements[i];
+                            GenerateVariations(index + 1, elements);
+                            used[i] = false;
+                        }
+                    }
+                }
+            }
         }
     }
 }
