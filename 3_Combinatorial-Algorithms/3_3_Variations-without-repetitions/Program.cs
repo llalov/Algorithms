@@ -12,6 +12,8 @@ namespace _3_3_Variations_without_repetitions
             bool[] used = new bool[elements.Length];//used variations
             GenerateVariations(0, elements);
 
+            //Generating variations of k elements.
+            //Variations count: n!/(n-k)!
             void GenerateVariations<T>(int index, T[] array)
             {
                 if (index >= k)
