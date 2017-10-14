@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_1_Knapsack-0-1-problem", "6_1_Knapsack-0-1-problem\6_1_Knapsack-0-1-problem.csproj", "{73A44C91-CE32-43FA-B71B-DB387990A6F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_2_Subset-sum", "6_2_Longest-common-subsequence\6_2_Subset-sum.csproj", "{9F7A0F07-E059-46E9-878D-3E828B576422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{73A44C91-CE32-43FA-B71B-DB387990A6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73A44C91-CE32-43FA-B71B-DB387990A6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73A44C91-CE32-43FA-B71B-DB387990A6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7A0F07-E059-46E9-878D-3E828B576422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7A0F07-E059-46E9-878D-3E828B576422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7A0F07-E059-46E9-878D-3E828B576422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7A0F07-E059-46E9-878D-3E828B576422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
