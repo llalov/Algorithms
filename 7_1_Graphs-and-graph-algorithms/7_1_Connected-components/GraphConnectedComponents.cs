@@ -8,22 +8,21 @@ namespace _7_1_Connected_components
     {
         static List<int>[] graph = new List<int>[]
      {
-        new List<int>() { 3, 6 },
-        new List<int>() { 3, 4, 5, 6 },
-        new List<int>() { 8 },
-        new List<int>() { 0, 1, 5 },
-        new List<int>() { 1, 6 },
-        new List<int>() { 1, 3 },
-        new List<int>() { 0, 1, 4 },
-        new List<int>() { },
-        new List<int>() { 2 }
+        new List<int>() { 3, 6 },       //0
+        new List<int>() { 3, 4, 5, 6 }, //1
+        new List<int>() { 8 },          //2
+        new List<int>() { 0, 1, 5 },    //3
+        new List<int>() { 1, 6 },       //4
+        new List<int>() { 1, 3 },       //5
+        new List<int>() { 0, 1, 4 },    //6
+        new List<int>() { },            //7
+        new List<int>() { 2 }           //8
      };
 
         public static void Main()
         {
-            //visited = new bool[graph.Length];
-
-            //graph = ReadGraph();
+            //re-writing graph from console input
+            graph = ReadGraph();
             FindGraphConnectedComponents();
         }
 
