@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace _7_1_Connected_components
-{
-    class GraphConnectedComponents
+    public class GraphConnectedComponents
     {
         static List<int>[] graph = new List<int>[]
      {
@@ -68,4 +66,3 @@ namespace _7_1_Connected_components
             }
         }
     }
-}
