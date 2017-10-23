@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_1_Connected-components", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_1_Connected-components.Tests", "7_1_Connected-components.Tests\7_1_Connected-components.Tests.csproj", "{B5527770-9618-4C58-BD70-9869CB75BC29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_2_Topological-sorting", "7_2_Topological-sorting\7_2_Topological-sorting.csproj", "{3D958DEF-E805-428D-B5C5-6C767F61E73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_2_Topological-sorting.Tests", "7_2_Topological-sorting.Tests\7_2_Topological-sorting.Tests.csproj", "{A6DBB937-6597-43F3-A5B9-D7687B744FB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B5527770-9618-4C58-BD70-9869CB75BC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5527770-9618-4C58-BD70-9869CB75BC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5527770-9618-4C58-BD70-9869CB75BC29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D958DEF-E805-428D-B5C5-6C767F61E73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D958DEF-E805-428D-B5C5-6C767F61E73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D958DEF-E805-428D-B5C5-6C767F61E73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D958DEF-E805-428D-B5C5-6C767F61E73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DBB937-6597-43F3-A5B9-D7687B744FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DBB937-6597-43F3-A5B9-D7687B744FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DBB937-6597-43F3-A5B9-D7687B744FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DBB937-6597-43F3-A5B9-D7687B744FB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
