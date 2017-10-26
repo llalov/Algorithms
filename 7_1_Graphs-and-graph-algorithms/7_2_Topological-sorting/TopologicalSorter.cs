@@ -7,6 +7,7 @@ public class TopologicalSorter
     private Dictionary<string, List<string>> graph;
     private Dictionary<string, int> predecessorCount; // used with Iterative algorithm
     private HashSet<string> visited = new HashSet<string>(); // used with DFS algorithm
+    private HashSet<string> cycleNodes = new HashSet<string>();// used with DFS algorithm for checking for cycle nodes
 
     public TopologicalSorter(Dictionary<string, List<string>> graph)
     {
@@ -18,7 +19,12 @@ public class TopologicalSorter
     {
         LinkedList<string> sorted = new LinkedList<string>();
         foreach (var node in this.graph.Keys)
+        {
+            //TODO: Cycle detection not working. Debug.
+            //if (cycleNodes.Contains(node))
+            //    throw new InvalidOperationException("Cycle detected.");
             DFS(node, sorted);
+        }
         return sorted;
     }
 
@@ -68,8 +74,10 @@ public class TopologicalSorter
         if (!visited.Contains(node))
         {
             visited.Add(node);
+            cycleNodes.Add(node);
             foreach (var child in graph[node])
                 DFS(child, result);
+            cycleNodes.Remove(node);
             result.AddFirst(node);
         }
     }
