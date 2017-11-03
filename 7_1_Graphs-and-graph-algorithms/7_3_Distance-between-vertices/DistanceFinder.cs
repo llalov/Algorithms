@@ -6,15 +6,18 @@ using System.Text;
 public class DistanceFinder
 {
     private Dictionary<string, List<string>> graph;
+    private Queue<int> path;
+    private HashSet<int> visited = new HashSet<int>();
 
     public DistanceFinder(Dictionary<string, List<string>> graph)
     {
         this.graph = graph;
     }
 
-    static void BFS()
+    private void BFS(int node, LinkedList<int> result)
     {
-        //TODO
+        path = new Queue<int>();
+       
     }
 }
 
