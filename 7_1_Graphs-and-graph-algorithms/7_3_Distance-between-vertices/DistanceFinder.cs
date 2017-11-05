@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿using System.Collections.Generic;
+using System.Linq;
 
 public class DistanceFinder
 {
@@ -14,17 +12,53 @@ public class DistanceFinder
         this.graph = graph;
     }
 
-    public Dictionary<int, List<int>> FindShortestPath(int start, int end)
+    public Dictionary<int, LinkedList<int>> FindShortestPath(int start, int end)
     {
-        Dictionary<int, List<int>> distanceAndPath = new Dictionary<int, List<int>>();
+        Dictionary<int, LinkedList<int>> distanceAndPath = new Dictionary<int, LinkedList<int>>();
         List<int> result = new List<int>();
-
-        BFS(start, result);
-        
+        BFS(graph.Keys.ElementAt(0), result);
+        graph = BFSOrderedGraph(graph, result);
+        int distance = 0;
+        LinkedList<int> shortestPath = new LinkedList<int>();
+        if (result.Contains(end))
+        {
+            int startIndex = result.IndexOf(start);
+            int endIndex = result.IndexOf(end);
+            int searchedVal = end;
+            shortestPath.AddFirst(end);
+            while (searchedVal != start)
+            {
+                for (int i = startIndex; i < endIndex; i++)
+                {
+                    List<int> currentChildren = graph.Values.ElementAt(i);
+                    if (currentChildren.Contains(searchedVal))
+                    {
+                        shortestPath.AddFirst(graph.Keys.ElementAt(i));
+                        distance++;
+                        searchedVal = graph.Keys.ElementAt(i);
+                        break;
+                    }
+                }
+            }
+        }
+        else
+        {
+            distance = -1;
+            shortestPath.AddFirst(-1);
+        }
+        distanceAndPath.Add(distance, shortestPath);
         return distanceAndPath;
     }
 
-    public void BFS(int node, List<int> result)
+    private Dictionary<int, List<int>> BFSOrderedGraph(Dictionary<int, List<int>> graph, List<int> keysOrder)
+    {
+        Dictionary<int, List<int>> BFSgraph = new Dictionary<int, List<int>>();
+        foreach (var key in keysOrder)
+            BFSgraph.Add(key, graph[key]);
+        return BFSgraph;
+    }
+    
+    private void BFS(int node, List<int> result)
     {
         path = new Queue<int>();
         path.Enqueue(node);
