@@ -15,9 +15,20 @@ namespace _7_3_Distance_between_vertices
 
             for (int i = 0; i < verticesCount; i++)
             {
-                int key = Convert.ToInt32(Console.ReadLine().Split(':')[0]);
+                string input = Console.ReadLine();
 
-                List<int> children = Console.ReadLine().Split(':')[1].Split(' ').Select(x => Convert.ToInt32(x)).ToList();
+                int key = Convert.ToInt32(input.Split(':')[0]);
+
+                List<int> children = new List<int>();
+                try
+                {
+                    children = input.Split(':')[1].Split(' ').Select(x => Convert.ToInt32(x)).ToList();
+                }
+                catch (Exception)
+                {
+                    
+                }
+                
                 graph.Add(key, children);
             }
 
@@ -25,8 +36,12 @@ namespace _7_3_Distance_between_vertices
             {
                 pairsToFind.Add(Console.ReadLine().Split('-').Select(x => Convert.ToInt32(x)).ToArray());
             }
+            List<int> result = new List<int>();
+            var distanceFinder = new DistanceFinder(graph);
+            distanceFinder.BFS(11, result);
 
-
+            foreach(var item in result)
+                Console.WriteLine(item);
         }
     }
 }
