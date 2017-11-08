@@ -16,7 +16,7 @@ public class DistanceFinder
     {
         Dictionary<int, LinkedList<int>> distanceAndPath = new Dictionary<int, LinkedList<int>>();
         List<int> result = new List<int>();
-        BFS(graph.Keys.ElementAt(0), result);
+        BFS(start, result);
         graph = BFSOrderedGraph(graph, result);
         int distance = 0;
         LinkedList<int> shortestPath = new LinkedList<int>();
