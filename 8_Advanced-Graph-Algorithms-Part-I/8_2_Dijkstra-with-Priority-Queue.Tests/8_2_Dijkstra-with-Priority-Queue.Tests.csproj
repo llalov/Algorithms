@@ -12,4 +12,8 @@
     <PackageReference Include="MSTest.TestFramework" Version="1.1.17" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\8_2_Dijkstra-with-Priority-Queue\8_2_Dijkstra-with-Priority-Queue.csproj" />
+  </ItemGroup>
+
 </Project>
