@@ -98,6 +98,7 @@ Swap the first with the min element on the right, then the second, etc.<br/>
 Swaps to neighbor elements when not in order until sorted<br/>
 - Insertion sort (simple, but inefficient algorithm ): https://visualgo.net/en/sorting <br/>
 Move the first unsorted element left to its place<br/>
+---------------------EFFICIENT----------------------------<br/>
 - Merge sort (efficient sorting algorithm) https://visualgo.net/en/sorting<br/>
 Divide the list into sub-lists (tipically 2 sub lists)<br/>
 Sort each sub-list (recursively call merge-sort)<br/>
