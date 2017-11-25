@@ -99,17 +99,17 @@ Swaps to neighbor elements when not in order until sorted<br/>
 - Insertion sort (simple, but inefficient algorithm ): https://visualgo.net/en/sorting <br/>
 Move the first unsorted element left to its place<br/><br/>
 ---------------------EFFICIENT----------------------------<br/>
-- <b>Merge sort<b/> (efficient sorting algorithm) https://visualgo.net/en/sorting<br/>
+- <b>Merge sort</b> (efficient sorting algorithm) https://visualgo.net/en/sorting<br/>
 Divide the list into sub-lists (tipically 2 sub lists)<br/>
 Sort each sub-list (recursively call merge-sort)<br/>
 Merge the sorted sub-lists into a single list<br/>
 Highly parallelizable on multiple cores/machines: up to 0(log(n))<br/>
-- <b>Quick sort<b/> (efficient sorting algorithm) https://visualgo.net/en/sorting<br/>
+- <b>Quick sort</b> (efficient sorting algorithm) https://visualgo.net/en/sorting<br/>
 Choose a pivot; move smaller elements left & larger right; sort left & right<br/>
-- <b>Counting sort<b/> (very efficient sorting algorithm) https://visualgo.net/en/sorting<br/>
+- <b>Counting sort</b> (very efficient sorting algorithm) https://visualgo.net/en/sorting<br/>
 Sorts small integers by counting their occurrences<br/>
 Not a comparison-based sort<br/>
-- <b>Bucket sort<b/> (partitions an array into a number of buckets)<br/>
+- <b>Bucket sort</b> (partitions an array into a number of buckets)<br/>
 Each bucket is then sorted individually with a different algorithm<br/>
 Not a comparison-based sort<br/>
 
